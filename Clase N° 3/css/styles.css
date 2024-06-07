@@ -1,0 +1,48 @@
+h1{
+    color:brown; /*cambiamos el color de la letra*/
+    background-color: aquamarine; /*cambiamos el color del fondo*/
+    font-size: 100px; /*tamañano de la letra*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*tipo de letra*/
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 25px;
+}
+
+.subtítulo0{
+    color: chocolate;
+    background-color: aquamarine;
+    font: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 25px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.subtítulo1{
+    color: darkblue;
+}
+
+
+.color_azul{ /*selector tipo de clase*/
+    color: blue;
+}
+
+
+.subtítulo2{
+    color: darkgreen;
+}
+
+.color_verde{
+    color:green;
+}
+
+
+#título_REDES{ /*selector id*/
+    color: violet;
+}

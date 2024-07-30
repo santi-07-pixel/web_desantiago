@@ -1,0 +1,115 @@
+body {
+    background-color: silver;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav li :hover{
+    color: whitesmoke;
+    background-color:grey;
+    font-size: 20px;
+}
+
+.display_image{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border: 5px double;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px
+}
+
+.title_modelos{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textito{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 5px inset;
+    background-color: gainsboro;
+}
+
+
+
+.card{
+    transition: transform 1s;
+}
+
+.card-img-top{
+    margin: 0 auto;
+    max-width: 300px;
+    border: 5px solid;
+    padding: 5px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.contenedor_límite{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.card-body{
+    margin: 0 auto;
+    background-color: gainsboro;
+    max-width: 300px;
+    border: 5px solid;
+    padding: 30px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_pyp{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
